@@ -1,0 +1,5 @@
+@use "../utility";
+
+$wrapper: 1080px;
+$pageGutter: 30px;
+$pageGutter: utility.generate-vw-clamp(30, 100);

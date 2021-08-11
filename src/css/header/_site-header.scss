@@ -1,0 +1,35 @@
+@use "variables";
+
+.site-header {
+    padding: 1rem 0;
+    box-shadow: 0 1px 2px 1px --wp--preset--color--grey;
+    position: sticky;
+    background: #fff;
+    top: 0;
+    z-index: 20;
+}
+
+.site-header__inner,
+.menu-wrapper {
+    display: flex;
+}
+
+.site-header__inner {
+    align-items: center;
+    justify-content: space-between;
+    @media (max-width: variables.$nav-breakpoint - 1) {
+        flex-wrap: wrap;
+    }
+}
+
+.primary-navigation {
+    @media (max-width: variables.$nav-breakpoint - 1) {
+        background-color: white;
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        overflow: hidden;
+    }
+}

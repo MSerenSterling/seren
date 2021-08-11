@@ -1,0 +1,54 @@
+@use "variables";
+
+$button-height: 23px;
+$line-height: 2px;
+
+.menu-toggle{
+    background: none;
+    border: none;
+    cursor: pointer;
+    height: $button-height;
+    padding: 0;
+    position: relative;
+    width: 30px;
+    @media (min-width: variables.$nav-breakpoint) {
+        display: none;
+    }
+}
+
+.menu-toggle-line {
+	display: block;
+	position: absolute;
+	height: $line-height;
+	width: 100%;
+	background: black;
+	border-radius: 2px;
+	opacity: 1;
+    left: 0;
+	transform: rotate(0deg);
+	transition: .25s ease-in-out;
+}
+
+// Calculate span position based on button variables
+@for $i from 0 to 3 {
+  .menu-toggle-line:nth-of-type(#{$i + 1}) {
+    top: #{$i * (($button-height / 2) - ($line-height / 2)) };
+  }
+  @if $i == 0 or $i == 2 {
+    .menu-button.open .menu-toggle-line:nth-of-type(#{$i + 1}) {
+      top: calc(#{$button-height} / 2);
+    }
+  } 
+}
+
+.menu-toggle.open .menu-toggle-line:nth-of-type(1) {
+	transform: rotate(135deg);
+}
+
+.menu-toggle.open .menu-toggle-line:nth-of-type(2) {
+	opacity: 0;
+}
+
+.menu-toggle.open .menu-toggle-line:nth-of-type(3) {
+	transform: rotate(-135deg);
+}

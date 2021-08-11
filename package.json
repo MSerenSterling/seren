@@ -1,0 +1,47 @@
+{
+  "name": "sterling",
+  "version": "1.0.0",
+  "description": "Sterling theme packages",
+  "main": "main.js",
+  "keywords": [
+    "wordpress",
+    "themes"
+  ],
+  "author": "Meghan Sterling",
+  "license": "GPL-2.0-or-later",
+  "browserslist": [
+    "defaults"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "@epegzz/sass-vars-loader": "^6.1.0",
+    "@wordpress/browserslist-config": "^4.0.1",
+    "@wordpress/eslint-plugin": "^9.0.6",
+    "babel-loader": "^8.2.2",
+    "browser-sync": "^2.27.4",
+    "browser-sync-webpack-plugin": "^2.3.0",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "cross-env": "^7.0.3",
+    "css-loader": "^5.2.6",
+    "cssnano": "^5.0.6",
+    "file-loader": "^6.2.0",
+    "mini-css-extract-plugin": "^2.1.0",
+    "optimize-css-assets-webpack-plugin": "^6.0.1",
+    "sass": "^1.35.1",
+    "style-loader": "^3.0.0",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^5.42.1",
+    "webpack-cli": "^4.7.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prod": "webpack --mode production",
+    "dev": "webpack --watch --mode development",
+    "clean": "rm -rf build/*"
+  },
+  "dependencies": {
+    "sass-loader": "^12.1.0"
+  }
+}

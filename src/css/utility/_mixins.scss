@@ -1,0 +1,49 @@
+@use "sass:math";
+
+// Mixin for rem with fallback
+@mixin font-size($sizeValue, $important: false) {
+    $important: if($important, "!important", "");
+    font-size: ($sizeValue)+px #{$important};
+    font-size: math.div($sizeValue, 16)+rem #{$important};
+}
+
+// Mixin for responsive font size
+@mixin responsive-font-size($maxFont, $minFont) {
+    font-size: generate-vw-clamp($minFont, $maxFont);
+    font-size: generate-vw-clamp(math.div($minFont, 16), math.div($maxFont, 16), 'rem');
+}
+
+$responsive-scale: 980;
+
+@function generate-vw-clamp($minSize, $maxSize, $unit: 'px') {
+    $vw: math.div($maxSize, $responsive-scale) * 100;
+    @if $unit == 'rem' {
+        $vw: math.div($maxSize, math.div($responsive-scale, 16)) * 100;
+    }
+    $clamp: clamp(#{$minSize + $unit}, #{$vw + 'vw'}, #{$maxSize + $unit});
+    @return $clamp;
+}
+
+// CSS Slide In/Out animations that don't require JS
+// note these only work for absolutely positioned items
+
+// Slide in
+@mixin slideClosedState {
+    transform: scaleY(0);
+    transition: visibility 0s linear 0.3s, transform 0.3s ease 0.3s;
+    transform-origin: top;
+    position: absolute;
+    visibility: hidden;
+}
+
+//Slide out
+@mixin slideOpenState {
+    visibility: visible;
+    transform: scaleY(1);
+    transition: visibility 0s linear 0s, transform 0.3s ease 0s;
+}
+
+// Converts Adobe XD letter spacing to CSS
+@mixin letter-spacing($spacing) {
+    letter-spacing: ($spacing / 1000) * 1em;
+}

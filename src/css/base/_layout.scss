@@ -1,0 +1,64 @@
+@use "variables";
+
+.wrapper {
+    --wrapper: #{variables.$wrapper}; //uses sass var for theme base, but sets CSS var to allow local override
+    max-width: variables.$wrapper;
+    width: 95%;
+    margin: 0 auto;
+    @supports (display: grid) {
+        display: grid;
+        grid-template-columns:
+            [full-start] variables.$pageGutter
+            [gutter-start] calc(50vw - ((var(--wrapper) / 2)) - #{variables.$pageGutter})
+            [wrapper-start] 1fr
+            [wrapper-end] calc(50vw - ((var(--wrapper) / 2)) - #{variables.$pageGutter})
+            [gutter-end] variables.$pageGutter 
+            [full-end];
+
+        > * {
+            grid-column: wrapper-start / wrapper-end;
+        }
+        max-width: unset;
+        width: unset;
+        margin: 0;
+    }
+}
+
+.wrapper .wrapper:not(.alignfull) {
+   grid-template-columns: 1fr;
+}
+
+.alignwide {
+    grid-column: gutter-start / gutter-end;
+}
+
+.alignfull {
+    grid-column: 1 / -1;
+    @extend .wrapper;
+    > img {
+        grid-column: 1 / -1;
+    }
+}
+
+// Align left/right 
+.wrapper > .align-right {
+    justify-self: end;
+}
+
+// Stack class only applies margins to 
+// children of .stack element
+.stack {
+    --space: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.stack > * {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.stack > * + * {
+    margin-top: var(--space);
+}
