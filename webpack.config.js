@@ -46,10 +46,11 @@ const config = {
         ]
     },
     plugins: [
-        new BrowserSyncPlugin({
-            files: "**/*.php",
-            proxy: "http://coach-theme.local/"
-        }),
+        // Uncomment and add local address to proxy in order to run BrowserSync
+        // new BrowserSyncPlugin({
+        //     files: "**/*.php",
+        //     proxy: ""
+        // }),
         new MiniCssExtractPlugin({
             filename: './css/main.min.css'
         })

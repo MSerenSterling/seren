@@ -1,10 +1,9 @@
-@use "../setup";
 @use "../utility";
 @use "variables";
 
 $font-size: 16;
 $submenu-font-size: 16;
-$font-weigth: 700;
+$font-weight: 700;
 $color: var(--wp--preset--color--black);
 $hover: var(--wp--preset--color--primary);
 
@@ -38,7 +37,7 @@ $hover: var(--wp--preset--color--primary);
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    font-weight: $font-weigth;
+    font-weight: $font-weight;
     @media (min-width: variables.$nav-breakpoint) {
       &:hover,
       &:focus {
