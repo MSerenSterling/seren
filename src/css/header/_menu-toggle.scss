@@ -1,19 +1,28 @@
 @use "variables";
 
-$button-height: 23px;
-$line-height: 2px;
+$button-height: 18px;
+$line-height: 1px;
 
-.menu-toggle{
-    background: none;
+.menu-toggle{ 
+    background-color: var(--wp--preset--color--white);
     border: none;
     cursor: pointer;
     height: $button-height;
     padding: 0;
-    position: relative;
-    width: 30px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
     @media (min-width: variables.$nav-breakpoint) {
         display: none;
     }
+}
+
+.menu-toggle-lines {
+  position: relative;
+  width: 18px;
+  height: $button-height;
 }
 
 .menu-toggle-line {
@@ -24,31 +33,26 @@ $line-height: 2px;
 	background: black;
 	border-radius: 2px;
 	opacity: 1;
-    left: 0;
-	transform: rotate(0deg);
+  left: 0;
+  top: 0;
 	transition: .25s ease-in-out;
 }
 
 // Calculate span position based on button variables
 @for $i from 0 to 3 {
   .menu-toggle-line:nth-of-type(#{$i + 1}) {
-    top: #{$i * (($button-height / 2) - ($line-height / 2)) };
+    transform: translateY(#{$i * (($button-height / 2) - ($line-height / 2)) }) rotate(0deg);
   }
-  @if $i == 0 or $i == 2 {
-    .menu-button.open .menu-toggle-line:nth-of-type(#{$i + 1}) {
-      top: calc(#{$button-height} / 2);
-    }
-  } 
 }
 
-.menu-toggle.open .menu-toggle-line:nth-of-type(1) {
-	transform: rotate(135deg);
+.menu-toggle.menu-open .menu-toggle-line:nth-of-type(1) {
+	transform: translateY(calc(#{$button-height} / 2)) rotate(-135deg);
 }
 
-.menu-toggle.open .menu-toggle-line:nth-of-type(2) {
+.menu-toggle.menu-open .menu-toggle-line:nth-of-type(2) {
 	opacity: 0;
 }
 
-.menu-toggle.open .menu-toggle-line:nth-of-type(3) {
-	transform: rotate(-135deg);
+.menu-toggle.menu-open .menu-toggle-line:nth-of-type(3) {
+	transform: translateY(calc(#{$button-height} / 2)) rotate(135deg);
 }

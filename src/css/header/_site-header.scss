@@ -1,8 +1,7 @@
 @use "variables";
 
 .site-header {
-    padding: 1rem 0;
-    box-shadow: 0 1px 2px 1px --wp--preset--color--grey;
+    // box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
     position: sticky;
     background: #fff;
     top: 0;
@@ -24,12 +23,20 @@
 
 .primary-navigation {
     @media (max-width: variables.$nav-breakpoint - 1) {
-        background-color: white;
+        color: var(--wp--preset--color--white);
+        background: var(--wp--preset--color--primary);
         display: none;
         position: absolute;
         top: 100%;
         left: 0;
         right: 0;
+        height: 0;
         overflow: hidden;
+        transition: height 0.3s ease-in-out;
+        .primary-menu-container {
+            max-height: calc(100vh - var(--headerHeight));
+            overflow: auto;
+            padding: 50px 25px 25px 25px;
+        }
     }
 }

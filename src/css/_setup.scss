@@ -1,50 +1,25 @@
 @use "utility";
 
 // DEFAULT BUTTON
-
-// Map button colors
 .wp-block-button .wp-block-button__link {
-    // border: 2px solid transparent;
-    // font-weight: 700;
-    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+    border: 2px solid transparent;
+    border-radius: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    transition: filter 0.3s ease-in-out;
+    --hoverHueRotate: 75deg;
     &:hover,
     &:focus {
-        border-color: currentColor;
-        &:not(.has-text-color) {
-            background-color: transparent;
-        }
-        &:not(.has-background) {
-            color: var(--wp--preset--color--primary);
-        }
-    }
-    @each $name, $color in $colors {
-        &.has-#{$name}-background-color:hover,
-        &.has-#{$name}-background-color:focus {
-            color: $color;
-        }
-        &.has-#{$name}-color:hover,
-        &.has-#{$name}-color:focus  {
-            background-color: $color;
-        }
+        filter: hue-rotate(var(--hoverHueRotate, 45deg));
     }
 }
 
 .is-style-outline>.wp-block-button__link {
-    // border-color: currentColor;
-    // &:not(.has-text-color) {
-    //     color: $button-primary;
-    // }
-    // &:not(.has-background-color) {
-    //     background-color: transparent;
-    // }
-    &:hover,
-    &:focus { 
-        border-color: transparent;
-        &:not(.has-text-color) {
-            background-color: var(--wp--preset--color--primary);
-        }
-        &:not(.has-background-color) {
-            color: var(--wp--preset--color--white);
-        }
+    border-color: currentColor;
+    &:not(.has-text-color) {
+        color: var(--wp--preset--color--secondary);
+    }
+    &:not(.has-background-color) {
+        background-color: transparent;
     }
 }

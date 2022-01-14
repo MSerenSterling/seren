@@ -18,7 +18,6 @@ const config = {
         filename: "js/[name].js",
         path: path.resolve(__dirname, "assets"),
     },
-
     module: {
         rules: [
             {
@@ -32,6 +31,17 @@ const config = {
             {
                 test: /\.(sass|scss)$/,
                 use: [MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
+            },
+            {
+                test: /\.(png|jpg|gif|svg)$/i,
+                use: [
+                {
+                    loader: 'url-loader',
+                    options: {
+                    limit: 8192
+                    }
+                }
+                ]
             }
         ]
     },

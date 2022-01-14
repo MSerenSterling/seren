@@ -3,22 +3,6 @@
 require_once __DIR__ . '/classes/class-sterling-autoloader.php';
 Sterling_Autoloader::register();
 
-/**
- * Initializes Gutenberg styling options based on theme.json
- */
-// function sterling_theme_blocks_setup() {
-// 	// Pull theme options from theme.json and convert to PHP array
-// 	$theme_file = file_get_contents( get_stylesheet_directory( ) . '/theme.json');
-// 	$theme_array = json_decode($theme_file, true);
-
-// 	/* Initiates block setup with default options.
-// 	* Add optional $options array as a second parameter to override defaults 
-// 	*/
-// 	Sterling_Theme_Blocks_Setup::init($theme_array);
-// }
-
-// add_action( 'after_setup_theme', 'sterling_theme_blocks_setup');
-
 
 // Enqueue Scripts
 add_action("wp_enqueue_scripts", "sterling_enqueue_frontend_scripts");
@@ -55,7 +39,7 @@ function sterling_load_fonts() {
 function sterling_fonts_url() { 
     $fonts = array(); 
  
-    $fonts[] = 'Montserrat:400,700,900'; 
+    $fonts[] = 'Montserrat:400,600,700,900'; 
 
     $fonts_url = add_query_arg( array( 
         'family' => rawurlencode( implode( '|', $fonts ) )
@@ -66,6 +50,7 @@ function sterling_fonts_url() {
 
 function sterling_theme_setup() { 
     add_theme_support( 'custom-logo');  
+    set_post_thumbnail_size( 750, 300, true);
       
     register_nav_menus(
         array(
@@ -88,3 +73,60 @@ if( function_exists('acf_add_options_page') ) {
 	acf_add_options_page();
 	
 }
+
+/* Log Client in After GF User Registration form is submitted */
+
+add_action( 'gform_user_registered', 'sterling_gravity_registration_autologin', 10, 4 );
+
+function sterling_gravity_registration_autologin($user_id, $user_config, $entry, $password) {
+    $user = get_userdata($user_id);
+    $user_login = $user->user_login;
+    $user_password = $password;
+
+    wp_signon( array(
+        'user_login' => $user_login,
+        'user_password' => $user_password,
+        'remember' => false
+    ));
+}
+
+/* Make Pre-filled Coaching Agreement Fields Readonly */
+// update '1' to the ID of your form
+add_filter( 'gform_pre_render_2', 'add_readonly_script' );
+function add_readonly_script( $form ) {
+    ?>
+    <script type="text/javascript">
+        jQuery(document).ready(function(){
+            /* apply only to a input with a class of gf_readonly */
+            jQuery(".gf_readonly input").attr("readonly","readonly");
+        });
+    </script>
+    <?php
+    return $form;
+}
+
+/* Dynamically populate cost & # of sessions */
+
+add_filter( 'gform_field_value_client_cost', 'populate_client_cost_field' );
+function populate_client_cost_field( $value ) {
+    $user_id = get_current_user_id();
+
+    $client_cost = get_user_meta( $user_id, 'cost', true); 
+    
+    return $client_cost;
+}
+
+add_filter( 'gform_field_value_client_sessions', 'populate_client_sessions_field' );
+function populate_client_sessions_field( $value ) {
+    $user_id = get_current_user_id();
+
+    $client_sessions = get_user_meta( $user_id, 'sessions', true); 
+
+    return $client_sessions;
+}
+
+
+function mytheme_custom_excerpt_length( $length ) {
+    return 45;
+}
+add_filter( 'excerpt_length', 'mytheme_custom_excerpt_length', 999 );

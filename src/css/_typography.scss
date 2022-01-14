@@ -4,3 +4,65 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.75;
 }
+
+.has-huge-font-size {
+    font-weight: 700;
+}
+
+%column {
+    position: relative; 
+    &::before {
+        content: "";
+        background-image: url("../../assets/images/BarBackground.svg");
+        background-repeat: no-repeat;
+        position: absolute;
+        z-index: -1;
+    }
+}
+
+.has-column {
+    @extend %column;
+    &::before {
+        width: 30%;
+        height: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        @media (min-width: 600px) {
+            height: calc(100% + 50px);
+        }
+    }
+}
+
+
+
+.text-upright {
+    @media (min-width: 599px) {
+        writing-mode: vertical-rl;
+        text-orientation: mixed;
+        transform: rotate(180deg);
+    }
+    @extend %column;
+    &::before {
+        width: 1ch;
+        height: 100%;
+        @media (min-width: 599px) {
+            top: -50px;
+            height: 200%;
+            width: 100%;
+        }
+    }
+}
+
+.highlight {
+    position: relative;
+    width: fit-content;
+    &:before {
+        content: "";
+        position: absolute;
+        width: 100%;
+        height: 30%;
+        background-color: var(--wp--preset--color--secondary);
+        z-index: -1;
+        bottom: 0.2em;
+    }
+}

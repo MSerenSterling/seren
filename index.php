@@ -11,8 +11,6 @@
  */
 
  get_header();
-
- $singular =  is_singular();
  ?>
 
 <?php 
@@ -21,7 +19,7 @@
         while ( have_posts() ) {
             the_post();
 
-            $singular ? the_content() :  get_template_part('template-parts/content/content', get_post_type());
+            the_content();
         }
     } else {
         //  If no content, include the "No posts found" template.

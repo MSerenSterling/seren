@@ -1,4 +1,5 @@
 import bindFlyoutMenuListeners from './header/flyout-nav';
+import setHeaderHeightVariable from './header/header-height';
 import menuToggle from './header/menu-toggle';
 
 function domReady(fn) {
@@ -13,6 +14,7 @@ function domReady(fn) {
   domReady(() => {
       bindFlyoutMenuListeners();
       menuToggle();
+      setHeaderHeightVariable();
   });
 
 

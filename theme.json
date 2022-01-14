@@ -36,12 +36,53 @@
                 {
                     "name" : "Grey",
                     "slug" : "grey",
-                    "color" : "#777777"
+                    "color" : "#555555"
                 }
             ]
         },
-        "spacing" : {
-            "customPadding" : true
+        "typography": {
+            "customFontSize": false,
+            "customLineHeight": false,
+            "dropCap": false,
+            "fontFamilies": [
+                {
+                    "fontFamily": "\"Montserrat\", sans-serif",
+                    "slug": "main-font",
+                    "name": "Main Font"
+                }
+            ],
+            "fontSizes": [
+                {
+                    "slug": "normal",
+                    "size": "16px",
+                    "name": "Normal"
+                },
+                {
+                    "slug": "small",
+                    "size": "14px",
+                    "name": "Small"
+                },
+                {
+                    "slug": "medium",
+                    "size": "20px",
+                    "name": "Medium"
+                },
+                {
+                    "slug": "medium-big",
+                    "size": "clamp(24px, 4vw,32px)",
+                    "name": "Medium Big"
+                },
+                {
+                    "slug": "big",
+                    "size": "clamp(36px, 6vw,42px)",
+                    "name": "Big"
+                },
+                {
+                    "slug" : "huge",
+                    "size" : "clamp(48px, 8vw,80px)",
+                    "name" : "Huge"
+                }
+            ]
         }
     },
     "styles": {
@@ -63,7 +104,7 @@
             },
             "core/button": {
                 "color": {
-                    "background": "var(--wp--preset--color--primary)"
+                    "background": "var(--wp--preset--color--secondary)"
                 }
             }
         }

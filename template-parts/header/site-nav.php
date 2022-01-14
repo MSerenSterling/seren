@@ -8,9 +8,11 @@
 <?php if ( has_nav_menu( 'primary' ) ) : ?>
 	<button id="primary-mobile-menu" class="menu-toggle" aria-controls="primary-menu-list" aria-expanded="false">
 		<p class="screen-reader-text">Menu</p>
-		<span class="menu-toggle-line"></span>
-		<span class="menu-toggle-line"></span>
-		<span class="menu-toggle-line"></span>
+		<div class="menu-toggle-lines">
+			<span class="menu-toggle-line"></span>
+			<span class="menu-toggle-line"></span>
+			<span class="menu-toggle-line"></span>
+		</div>
 	</button><!-- #primary-mobile-menu -->
 	<nav id="site-navigation" class="primary-navigation">
 		<?php

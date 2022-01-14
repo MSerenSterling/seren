@@ -1,0 +1,833 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="263" height="666.5" viewBox="0 0 263 666.5">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="BG" width="263" height="666.5" transform="translate(390 233.5)" fill="#ffd362"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect id="crop" width="928" height="952" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.082" y1="0.918" x2="0.926" y2="0.074" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ff5e00"/>
+      <stop offset="0.314" stop-color="#ff9100"/>
+      <stop offset="0.621" stop-color="#ffbc00"/>
+      <stop offset="0.859" stop-color="gold"/>
+      <stop offset="1" stop-color="#ffe100"/>
+    </linearGradient>
+    <clipPath id="clip-path-3">
+      <rect id="Rectangle_26" data-name="Rectangle 26" width="928" height="951.994" transform="translate(0 0.003)" fill="none"/>
+    </clipPath>
+    <radialGradient id="radial-gradient" cx="0" cy="1" r="1.583" gradientTransform="matrix(0, 1, 0.815, 0, 42.749, -45.316)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cbcbcb"/>
+      <stop offset="1" stop-color="#878787"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="0" cy="1" r="1.121" gradientTransform="matrix(0, 1, 1.978, 0, 45.033, -39.318)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fefefe"/>
+      <stop offset="1" stop-color="#999"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="0" cy="1" r="4.194" gradientTransform="matrix(0, 1, 0.246, 0, 22.7, -40.879)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#959595"/>
+      <stop offset="1" stop-color="#545454"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-4" cx="0" cy="1" r="1.446" gradientTransform="matrix(0, 1, 0.957, 0, 37.45, -37.842)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#828282"/>
+      <stop offset="1" stop-color="#535353"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-5" cx="0" cy="1" r="1.982" gradientTransform="matrix(0, 1, 0.584, 0, 36.785, -42.573)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b4b4b4"/>
+      <stop offset="1" stop-color="#717171"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-6" cx="0" cy="1" r="3.416" gradientTransform="matrix(0, 1, 0.306, 0, 25.435, -40.237)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b1b1b1"/>
+      <stop offset="1" stop-color="#6f6f6f"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-7" cx="0" cy="1" r="1.206" gradientTransform="matrix(0, 1, 1.482, 0, 34.391, -31.663)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cbcbcb"/>
+      <stop offset="1" stop-color="#7e7e7e"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-8" cx="0" cy="1" r="1.209" gradientTransform="matrix(0, 1, 1.471, 0, 47.893, -43.805)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset="1" stop-color="#626262"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-9" cx="0" cy="1" r="1.452" gradientTransform="matrix(0, 1, 0.949, 0, 50.595, -51.319)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a3a3a3"/>
+      <stop offset="1" stop-color="#666"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-10" cx="0" cy="1" r="1.202" gradientTransform="matrix(0, 1, 1.5, 0, 77.138, -70.446)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#efefef"/>
+      <stop offset="1" stop-color="#a0a0a0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-11" cx="0" cy="1" r="1.093" gradientTransform="matrix(0, 1, 2.268, 0, 96.217, -82.049)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f5f5f5"/>
+      <stop offset="1" stop-color="#a4a4a4"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-12" cx="0" cy="1" r="1.03" gradientTransform="matrix(0, 1, 4.029, 0, 113.742, -91.556)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f3f3f3"/>
+      <stop offset="1" stop-color="#a3a3a3"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-13" cx="0" cy="1" r="1.838" gradientTransform="matrix(0, 1, 0.649, 0, 56.432, -65.046)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cacaca"/>
+      <stop offset="1" stop-color="#828282"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-14" cx="0" cy="1" r="1.629" gradientTransform="matrix(0, 1, 0.778, 0, 46.462, -50.642)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9e9e9e"/>
+      <stop offset="1" stop-color="#5f5f5f"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-15" cx="0" cy="1" r="3.359" gradientTransform="matrix(0, 1, 0.312, 0, 26.838, -45.584)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8f8f8f"/>
+      <stop offset="1" stop-color="#595959"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-16" cx="0" cy="1" r="1.474" gradientTransform="matrix(0, 1, 0.923, 0, 55.142, -56.589)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ddd"/>
+      <stop offset="1" stop-color="#777"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-17" cx="0" cy="1" r="1.127" gradientTransform="matrix(0, 1, 1.927, 0, 123.241, -104.471)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eaeaea"/>
+      <stop offset="1" stop-color="#727272"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-18" cx="0" cy="1" r="1.207" gradientTransform="matrix(0, 1, 1.48, 0, 46.009, -41.606)" xlink:href="#radial-gradient-17"/>
+    <radialGradient id="radial-gradient-19" cx="0" cy="1" r="1.341" gradientTransform="matrix(0, 1, 1.12, 0, 48.219, -46.646)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c4c4c4"/>
+      <stop offset="1" stop-color="#7d7d7d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-20" cx="0" cy="1" r="3.073" gradientTransform="matrix(0, 1, 0.344, 0, 26.602, -42.537)" xlink:href="#radial-gradient-17"/>
+    <radialGradient id="radial-gradient-21" cx="0" cy="1" r="1.761" gradientTransform="matrix(0, 1, 0.69, 0, 66.21, -75.309)" xlink:href="#radial-gradient-14"/>
+    <radialGradient id="radial-gradient-22" cx="0" cy="1" r="1.11" gradientTransform="matrix(0, 1, 2.079, 0, 127.761, -107.263)" xlink:href="#radial-gradient-19"/>
+    <radialGradient id="radial-gradient-23" cx="0" cy="1" r="1.341" gradientTransform="matrix(0, 1, 1.12, 0, 48.219, -46.646)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cacaca"/>
+      <stop offset="1" stop-color="#8b8b8b"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-24" cx="0" cy="1" r="2.047" gradientTransform="matrix(0, 1, 0.56, 0, 45.659, -56.406)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bcbcbc"/>
+      <stop offset="1" stop-color="#676767"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-25" cx="0" cy="1" r="1.151" gradientTransform="matrix(0, 1, 1.756, 0, 54.197, -47.35)" xlink:href="#radial-gradient-16"/>
+    <radialGradient id="radial-gradient-26" cx="0" cy="1" r="1.013" gradientTransform="matrix(0, 1, 6.125, 0, 188.035, -142.856)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fbfbfb"/>
+      <stop offset="1" stop-color="#a1a1a1"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-27" cx="0" cy="1" r="1.226" gradientTransform="matrix(0, 1, 1.41, 0, 44.589, -40.891)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ededed"/>
+      <stop offset="1" stop-color="#a5a5a5"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-28" cx="0" cy="1" r="2.955" gradientTransform="matrix(0, 1, 0.36, 0, 40.341, -62.08)" xlink:href="#radial-gradient-19"/>
+    <radialGradient id="radial-gradient-29" cx="0" cy="1" r="1.048" gradientTransform="matrix(0, 1, 3.196, 0, 97.672, -78.466)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#b2b2b2"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-30" cx="0" cy="1" r="1.226" gradientTransform="matrix(0, 1, 1.41, 0, 44.589, -40.891)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#b5b5b5"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-31" cx="0" cy="1" r="3.499" gradientTransform="matrix(0, 1, 0.298, 0, 25.374, -42.668)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d6d6d6"/>
+      <stop offset="1" stop-color="#959595"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-32" cx="0" cy="1" r="4.013" gradientTransform="matrix(0, 1, 0.257, 0, 24.994, -45.72)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#9e9e9e"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-33" cx="0" cy="1" r="1.362" gradientTransform="matrix(0, 1, 1.082, 0, 31.141, -30.503)" xlink:href="#radial-gradient-29"/>
+    <radialGradient id="radial-gradient-34" cx="0" cy="1" r="1.086" gradientTransform="matrix(0, 1, 2.354, 0, 87.604, -73.716)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="silver"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-35" cx="0" cy="1" r="1.362" gradientTransform="matrix(0, 1, 1.082, 0, 31.141, -30.503)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f1f1f1"/>
+      <stop offset="1" stop-color="#a7a7a7"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-36" cx="0" cy="1" r="1.875" gradientTransform="matrix(0, 1, 0.63, 0, 43.499, -50.412)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d3d3d3"/>
+      <stop offset="1" stop-color="#8a8a8a"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-37" cx="0" cy="1" r="1.048" gradientTransform="matrix(0, 1, 3.182, 0, 96.633, -78.417)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#9b9b9b"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-38" cx="0" cy="1" r="1.067" gradientTransform="matrix(0, 1, 2.69, 0, 100.117, -82.78)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#c1c1c1"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-39" cx="0" cy="1" r="1.729" gradientTransform="matrix(0, 1, 0.709, 0, 52.758, -58.835)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#b7b7b7"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-40" cx="0" cy="1" r="1.968" gradientTransform="matrix(0, 1, 0.59, 0, 44.589, -53.713)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f1f1f1"/>
+      <stop offset="1" stop-color="#8d8d8d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-41" cx="0" cy="1" r="1.102" gradientTransform="matrix(0, 1, 2.159, 0, 69.427, -58.932)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f4f4f4"/>
+      <stop offset="1" stop-color="#7f7f7f"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-42" cx="0" cy="1" r="1.085" gradientTransform="matrix(0, 1, 2.373, 0, 72.812, -61.134)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fefefe"/>
+      <stop offset="1" stop-color="#969696"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-43" cx="0" cy="1" r="1.343" gradientTransform="matrix(0, 1, 1.115, 0, 52.723, -51.114)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b7b7b7"/>
+      <stop offset="1" stop-color="#717171"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-44" cx="0" cy="1" r="1.172" gradientTransform="matrix(0, 1, 1.639, 0, 53.179, -47.302)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fefefe"/>
+      <stop offset="1" stop-color="#848484"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-45" cx="0" cy="1" r="2.618" gradientTransform="matrix(0, 1, 0.413, 0, 29.826, -42.306)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b5b5b5"/>
+      <stop offset="1" stop-color="#6a6a6a"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-46" cx="0" cy="1" r="1.93" gradientTransform="matrix(0, 1, 0.606, 0, 65.844, -78.949)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a4a4a4"/>
+      <stop offset="1" stop-color="#646464"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-47" cx="0" cy="1" r="1.021" gradientTransform="matrix(0, 1, 4.815, 0, 171.102, -131.257)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bdbdbd"/>
+      <stop offset="1" stop-color="#747474"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-48" cx="0" cy="1" r="1.343" gradientTransform="matrix(0, 1, 1.115, 0, 52.723, -51.114)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b1b1b1"/>
+      <stop offset="1" stop-color="#6c6c6c"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-49" cx="0" cy="1" r="1.141" gradientTransform="matrix(0, 1, 1.818, 0, 66.21, -57.771)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a9a9a9"/>
+      <stop offset="1" stop-color="#696969"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-50" cx="0" cy="1" r="2.483" gradientTransform="matrix(0, 1, 0.44, 0, 29.493, -40.454)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b1b1b1"/>
+      <stop offset="1" stop-color="#676767"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-51" cx="0" cy="1" r="1.56" gradientTransform="matrix(0, 1, 0.835, 0, 43.556, -45.969)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e3e3e3"/>
+      <stop offset="1" stop-color="#777"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-52" cx="0" cy="1" r="1.048" gradientTransform="matrix(0, 1, 3.175, 0, 110.621, -89.01)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bebebe"/>
+      <stop offset="1" stop-color="#757575"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-53" cx="0" cy="1" r="2.6" gradientTransform="matrix(0, 1, 0.417, 0, 51.581, -72.614)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#969696"/>
+      <stop offset="1" stop-color="#5e5e5e"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-54" cx="0" cy="1" r="1.093" gradientTransform="matrix(0, 1, 2.264, 0, 82.45, -69.41)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a2a2a2"/>
+      <stop offset="1" stop-color="#656565"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-55" cx="0" cy="1" r="3.698" gradientTransform="matrix(0, 1, 0.281, 0, 48.167, -83.943)" xlink:href="#radial-gradient-54"/>
+    <radialGradient id="radial-gradient-56" cx="0" cy="1" r="2.992" gradientTransform="matrix(0, 1, 0.355, 0, 24.633, -37.338)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a7a7a7"/>
+      <stop offset="1" stop-color="#5c5c5c"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-57" cx="0" cy="1" r="1.635" gradientTransform="matrix(0, 1, 0.773, 0, 46.317, -50.05)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a0a0a0"/>
+      <stop offset="1" stop-color="#585858"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-58" cx="0" cy="1" r="1.152" gradientTransform="matrix(0, 1, 1.746, 0, 71.098, -62.708)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#616161"/>
+      <stop offset="1" stop-color="#525252"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-59" cx="0" cy="1" r="3.422" gradientTransform="matrix(0, 1, 0.306, 0, 28.333, -46.181)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#525252"/>
+      <stop offset="1" stop-color="#525252"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-60" cx="0" cy="1" r="2.992" gradientTransform="matrix(0, 1, 0.355, 0, 24.633, -37.338)" xlink:href="#radial-gradient-50"/>
+    <radialGradient id="radial-gradient-61" cx="0" cy="1" r="1.507" gradientTransform="matrix(0, 1, 0.887, 0, 43.504, -45.06)" xlink:href="#radial-gradient-56"/>
+    <radialGradient id="radial-gradient-62" cx="0" cy="1" r="1.635" gradientTransform="matrix(0, 1, 0.773, 0, 46.317, -50.05)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#797979"/>
+      <stop offset="1" stop-color="#525252"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-63" cx="0" cy="1" r="1.059" gradientTransform="matrix(0, 1, 2.865, 0, 78.211, -64.791)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#dbdbdb"/>
+      <stop offset="1" stop-color="#717171"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-64" cx="0" r="3.393" gradientTransform="matrix(0, 1, 0.308, 0, 37.672, -60.976)" xlink:href="#radial-gradient-59"/>
+    <radialGradient id="radial-gradient-65" cx="0" cy="1" r="1.346" gradientTransform="matrix(0, 1, 1.109, 0, 70.562, -68.733)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#545454"/>
+      <stop offset="1" stop-color="#525252"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-66" cx="0" r="3.571" gradientTransform="matrix(0, 1, 0.292, 0, 28.319, -47.391)" xlink:href="#radial-gradient-59"/>
+    <radialGradient id="radial-gradient-67" cx="0" r="2.618" gradientTransform="matrix(0, 1, 0.413, 0, 50.867, -69.884)" xlink:href="#radial-gradient-58"/>
+    <radialGradient id="radial-gradient-68" cx="0" cy="1" r="1.363" gradientTransform="matrix(0, 1, 1.079, 0, 99.766, -97.862)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8c8c8c"/>
+      <stop offset="1" stop-color="#4d4d4d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-69" cx="0" cy="1" r="1.196" gradientTransform="matrix(0, 1, 1.525, 0, 96.121, -87.473)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#535353"/>
+      <stop offset="1" stop-color="#525252"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-70" cx="0" cy="1" r="1.353" gradientTransform="matrix(0, 1, 1.098, 0, 42.749, -41.753)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f0f0f0"/>
+      <stop offset="1" stop-color="#919191"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-71" cx="0" cy="1" r="3.608" gradientTransform="matrix(0, 1, 0.288, 0, 24.852, -41.121)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eaeaea"/>
+      <stop offset="1" stop-color="#9d9d9d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-72" cx="0" cy="1" r="1.268" gradientTransform="matrix(0, 1, 1.284, 0, 56.267, -53.119)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cecece"/>
+      <stop offset="1" stop-color="#909090"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-73" cx="0" cy="1" r="2.853" gradientTransform="matrix(0, 1, 0.374, 0, 22.175, -31.726)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9e9e9e"/>
+      <stop offset="1" stop-color="#6c6c6c"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-74" cx="0" cy="1" r="3.4" gradientTransform="matrix(0, 1, 0.308, 0, 34.441, -53.651)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8c8c8c"/>
+      <stop offset="1" stop-color="#5d5d5d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-75" cx="0" cy="1" r="1.268" gradientTransform="matrix(0, 1, 1.284, 0, 56.267, -53.119)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f0f0f0"/>
+      <stop offset="1" stop-color="#a7a7a7"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-76" cx="0" cy="1" r="2.256" gradientTransform="matrix(0, 1, 0.494, 0, 37.055, -45.557)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c4c4c4"/>
+      <stop offset="1" stop-color="gray"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-77" cx="0" cy="1" r="1.597" gradientTransform="matrix(0, 1, 0.803, 0, 50.498, -53.296)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d6d6d6"/>
+      <stop offset="1" stop-color="#8d8d8d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-78" cx="0" cy="1" r="1.067" gradientTransform="matrix(0, 1, 2.697, 0, 101.3, -87.192)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#9b9b9b"/>
+      <stop offset="1" stop-color="#636363"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-79" cx="0" cy="1" r="1.008" gradientTransform="matrix(0, 1, 7.938, 0, 206.575, -168.23)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ebebeb"/>
+      <stop offset="1" stop-color="#9d9d9d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-80" cx="0" cy="1" r="1.349" gradientTransform="matrix(0, 1, 1.105, 0, 51.642, -50.504)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#bebebe"/>
+      <stop offset="1" stop-color="#797979"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-81" cx="0" cy="1" r="1.53" gradientTransform="matrix(0, 1, 0.864, 0, 50.559, -52.36)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="silver"/>
+      <stop offset="1" stop-color="#7b7b7b"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-82" cx="0" cy="1" r="4.204" gradientTransform="matrix(0, 1, 0.245, 0, 25.333, -45.403)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#adadad"/>
+      <stop offset="1" stop-color="#6d6d6d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-83" cx="0" cy="1" r="1.424" gradientTransform="matrix(0, 1, 0.987, 0, 46.346, -46.493)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d2d2d2"/>
+      <stop offset="1" stop-color="#888"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-84" cx="0" cy="1" r="1.249" gradientTransform="matrix(0, 1, 1.338, 0, 45.662, -42.867)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#939393"/>
+      <stop offset="1" stop-color="#606060"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-85" cx="0" cy="1" r="1.375" gradientTransform="matrix(0, 1, 1.059, 0, 81.411, -80.145)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c2c2c2"/>
+      <stop offset="1" stop-color="#7e7e7e"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-86" cx="0" cy="1" r="1.031" gradientTransform="matrix(0, 1, 4, 0, 100.245, -80.38)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#919191"/>
+      <stop offset="1" stop-color="#5d5d5d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-87" cx="0" cy="1" r="1.209" gradientTransform="matrix(0, 1, 1.471, 0, 47.893, -43.805)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a2a2a2"/>
+      <stop offset="1" stop-color="#676767"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-88" cx="0" cy="1" r="2.219" gradientTransform="matrix(0, 1, 0.505, 0, 41.552, -53.399)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#888"/>
+      <stop offset="1" stop-color="#585858"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-89" cx="0" cy="1" r="1.099" gradientTransform="matrix(0, 1, 2.197, 0, 59.773, -50.895)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#929292"/>
+      <stop offset="1" stop-color="#626262"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-90" cx="0" cy="1" r="1.097" gradientTransform="matrix(0, 1, 2.216, 0, 56.62, -48.271)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8a8a8a"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-91" cx="0" cy="1" r="1.035" gradientTransform="matrix(0, 1, 3.75, 0, 155.03, -122.794)" xlink:href="#radial-gradient-23"/>
+    <radialGradient id="radial-gradient-92" cx="0" cy="1" r="1.566" gradientTransform="matrix(0, 1, 0.83, 0, 44.807, -47.382)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a0a0a0"/>
+      <stop offset="1" stop-color="#6a6a6a"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-93" cx="0" cy="1" r="1.099" gradientTransform="matrix(0, 1, 2.197, 0, 59.773, -50.895)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8f8f8f"/>
+      <stop offset="1" stop-color="#5f5f5f"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-94" cx="0" cy="1" r="1.425" gradientTransform="matrix(0, 1, 0.986, 0, 58.201, -58.433)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#afafaf"/>
+      <stop offset="1" stop-color="#6b6b6b"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-95" cx="0" cy="1" r="1.049" gradientTransform="matrix(0, 1, 3.156, 0, 122.651, -100.772)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c7c7c7"/>
+      <stop offset="1" stop-color="#7e7e7e"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-96" cx="0" cy="1" r="1.051" gradientTransform="matrix(0, 1, 3.095, 0, 92.855, -76.772)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ababab"/>
+      <stop offset="1" stop-color="#656565"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-97" cx="0" cy="1" r="1.056" gradientTransform="matrix(0, 1, 2.95, 0, 95.796, -79.769)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b2b2b2"/>
+      <stop offset="1" stop-color="#696969"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-98" cx="0" cy="1" r="1.04" gradientTransform="matrix(0, 1, 3.513, 0, 105.132, -85.935)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#acacac"/>
+      <stop offset="1" stop-color="#676767"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-99" cx="0" cy="1" r="2.125" gradientTransform="matrix(0, 1, 0.533, 0, 50.665, -62.25)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a7a7a7"/>
+      <stop offset="1" stop-color="#656565"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-100" cx="0" cy="1" r="1.709" gradientTransform="matrix(0, 1, 0.722, 0, 52.011, -57.576)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#bdbdbd"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-101" cx="0" cy="1" r="1.026" gradientTransform="matrix(0, 1, 4.382, 0, 117.086, -93.73)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f4f4f4"/>
+      <stop offset="1" stop-color="#909090"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-102" cx="0" cy="1" r="1.118" gradientTransform="matrix(0, 1, 2, 0, 45.545, -39.699)" xlink:href="#radial-gradient-30"/>
+    <radialGradient id="radial-gradient-103" cx="0" cy="1" r="1.056" gradientTransform="matrix(0, 1, 2.959, 0, 98.548, -78.891)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#adadad"/>
+      <stop offset="1" stop-color="#6c6c6c"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-104" cx="0" cy="1" r="1.069" gradientTransform="matrix(0, 1, 2.653, 0, 95.63, -77.944)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d2d2d2"/>
+      <stop offset="1" stop-color="#838383"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-105" cx="0" cy="1" r="1.071" gradientTransform="matrix(0, 1, 2.606, 0, 139.33, -113.766)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ddd"/>
+      <stop offset="1" stop-color="#8a8a8a"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-106" cx="0" cy="1" r="1.029" gradientTransform="matrix(0, 1, 4.097, 0, 142.735, -111.966)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#cacaca"/>
+      <stop offset="1" stop-color="#7c7c7c"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-107" cx="0" r="1.046" gradientTransform="matrix(0, 1, 3.27, 0, 113.376, -91.801)" xlink:href="#radial-gradient-59"/>
+    <radialGradient id="radial-gradient-108" cx="0" cy="1" r="2.469" gradientTransform="matrix(0, 1, 0.443, 0, 55.928, -74.886)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#aeaeae"/>
+      <stop offset="1" stop-color="#6a6a6a"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-109" cx="0" cy="1" r="1.081" gradientTransform="matrix(0, 1, 2.436, 0, 59.274, -50.957)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e0e0e0"/>
+      <stop offset="1" stop-color="#909090"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-110" cx="0" cy="1" r="1.206" gradientTransform="matrix(0, 1, 1.482, 0, 34.391, -31.663)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#c8c8c8"/>
+      <stop offset="1" stop-color="#7d7d7d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-111" cx="0" cy="1" r="1.302" gradientTransform="matrix(0, 1, 1.2, 0, 76.198, -72.905)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e9e9e9"/>
+      <stop offset="1" stop-color="#979797"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-112" cx="0" cy="1" r="1.034" gradientTransform="matrix(0, 1, 3.775, 0, 90.775, -75.101)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e7e7e7"/>
+      <stop offset="1" stop-color="#949494"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-113" cx="0" cy="1" r="1.249" gradientTransform="matrix(0, 1, 1.338, 0, 45.662, -42.867)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#959595"/>
+      <stop offset="1" stop-color="#606060"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-114" cx="0" cy="1" r="2.566" gradientTransform="matrix(0, 1, 0.423, 0, 37.48, -51.114)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#e1e1e1"/>
+      <stop offset="1" stop-color="#9d9d9d"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-115" cx="0" cy="1" r="2.853" gradientTransform="matrix(0, 1, 0.374, 0, 22.175, -31.726)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#aeaeae"/>
+      <stop offset="1" stop-color="#767676"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-116" cx="0" cy="1" r="1.593" gradientTransform="matrix(0, 1, 0.806, 0, 37.601, -39.727)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#8b8b8b"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-117" cx="0" cy="1" r="2.566" gradientTransform="matrix(0, 1, 0.423, 0, 34.134, -45.487)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#898989"/>
+      <stop offset="1" stop-color="#5a5a5a"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-118" cx="0" cy="1" r="1.106" gradientTransform="matrix(0, 1, 2.12, 0, 139.876, -122.233)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#828282"/>
+      <stop offset="1" stop-color="#515151"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-119" cx="0" cy="1" r="4.507" gradientTransform="matrix(0, 1, 0.228, 0, 22.718, -42.861)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b5b5b5"/>
+      <stop offset="1" stop-color="#6c6c6c"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-120" cx="0" cy="1" r="1.312" gradientTransform="matrix(0, 1, 1.178, 0, 79.22, -76.305)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset="1" stop-color="#5f5f5f"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-121" cx="0" cy="1" r="9.801" gradientTransform="matrix(0, 1, 0.103, 0, 24.653, -82.305)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d3d3d3"/>
+      <stop offset="1" stop-color="#858585"/>
+    </radialGradient>
+  </defs>
+  <g id="BG-2" data-name="BG" transform="translate(-390 -233.5)">
+    <rect id="BG-3" data-name="BG" width="263" height="666.5" transform="translate(390 233.5)" fill="#ffd362"/>
+    <g id="Clip" clip-path="url(#clip-path)">
+      <g id="Vector_Smart_Object" data-name="Vector Smart Object" transform="translate(44 65)" clip-path="url(#clip-path-2)">
+        <rect id="Rectangle_25" data-name="Rectangle 25" width="927.994" height="952" transform="translate(0 0)" fill="url(#linear-gradient)"/>
+        <g id="Group_26" data-name="Group 26" style="mix-blend-mode: color-burn;isolation: isolate">
+          <g id="Group_25" data-name="Group 25" clip-path="url(#clip-path-3)">
+            <g id="Polygons">
+              <g id="polygon">
+                <path id="polyPath" d="M479.246,280.829l-1.992,153.312L660.576,368.73Z" fill="url(#radial-gradient)"/>
+              </g>
+              <g id="polygon-2" data-name="polygon">
+                <path id="polyPath-2" data-name="polyPath" d="M301.9,74.369,477.254,434.141l1.992-153.312Z" fill="url(#radial-gradient-2)"/>
+              </g>
+              <g id="polygon-3" data-name="polygon">
+                <path id="polyPath-3" data-name="polyPath" d="M634.669-3.309,377.619-9.442,301.9,74.369Z" fill="url(#radial-gradient-3)"/>
+              </g>
+              <g id="polygon-4" data-name="polygon">
+                <path id="polyPath-4" data-name="polyPath" d="M819.986,150,774.154-31.926,634.669-3.309Z" fill="url(#radial-gradient-4)"/>
+              </g>
+              <g id="polygon-5" data-name="polygon">
+                <path id="polyPath-5" data-name="polyPath" d="M951.5,41.662l-7.974-106.3L774.154-31.926Z" fill="url(#radial-gradient-5)"/>
+              </g>
+              <g id="polygon-6" data-name="polygon">
+                <path id="polyPath-6" data-name="polyPath" d="M660.576,368.73l149.447,24.527,143.465-91.985Z" fill="url(#radial-gradient-6)"/>
+              </g>
+              <g id="polygon-7" data-name="polygon">
+                <path id="polyPath-7" data-name="polyPath" d="M810.023,393.257,734.3,634.471l219.185-333.2Z" fill="url(#radial-gradient-7)"/>
+              </g>
+              <g id="polygon-8" data-name="polygon">
+                <path id="polyPath-8" data-name="polyPath" d="M734.3,634.471,903.676,889.988,891.719,763.253Z" fill="url(#radial-gradient-8)"/>
+              </g>
+              <g id="polygon-9" data-name="polygon">
+                <path id="polyPath-9" data-name="polyPath" d="M891.719,763.253,873.785,609.94,734.3,634.471Z" fill="url(#radial-gradient-9)"/>
+              </g>
+              <g id="polygon-10" data-name="polygon">
+                <path id="polyPath-10" data-name="polyPath" d="M891.719,763.253l81.7-63.371L873.785,609.94Z" fill="url(#radial-gradient-10)"/>
+              </g>
+              <g id="polygon-11" data-name="polygon">
+                <path id="polyPath-11" data-name="polyPath" d="M903.676,889.988l69.741-190.106-81.7,63.371Z" fill="url(#radial-gradient-11)"/>
+              </g>
+              <g id="polygon-12" data-name="polygon">
+                <path id="polyPath-12" data-name="polyPath" d="M903.676,889.988,949.5,988.109l23.912-288.228Z" fill="url(#radial-gradient-12)"/>
+              </g>
+              <g id="polygon-13" data-name="polygon">
+                <path id="polyPath-13" data-name="polyPath" d="M802.052,969.713l147.453,18.4-45.829-98.122Z" fill="url(#radial-gradient-13)"/>
+              </g>
+              <g id="polygon-14" data-name="polygon">
+                <path id="polyPath-14" data-name="polyPath" d="M176.368,1057.611l33.874-53.147L-4.962,885.9Z" fill="url(#radial-gradient-14)"/>
+              </g>
+              <g id="polygon-15" data-name="polygon">
+                <path id="polyPath-15" data-name="polyPath" d="M-4.962,885.9l215.2,118.562,155.423-38.841Z" fill="url(#radial-gradient-15)"/>
+              </g>
+              <g id="polygon-16" data-name="polygon">
+                <path id="polyPath-16" data-name="polyPath" d="M-4.962,885.9,36.883,1002.42l139.485,55.191Z" fill="url(#radial-gradient-16)"/>
+              </g>
+              <g id="polygon-17" data-name="polygon">
+                <path id="polyPath-17" data-name="polyPath" d="M-44.816,1047.39l81.7-44.971L-4.962,885.9Z" fill="url(#radial-gradient-17)"/>
+              </g>
+              <g id="polygon-18" data-name="polygon">
+                <path id="polyPath-18" data-name="polyPath" d="M194.3,656.955,162.418,834.8,365.665,965.623Z" fill="url(#radial-gradient-18)"/>
+              </g>
+              <g id="polygon-19" data-name="polygon">
+                <path id="polyPath-19" data-name="polyPath" d="M-4.962,885.9l167.38-51.1L194.3,656.955Z" fill="url(#radial-gradient-19)"/>
+              </g>
+              <g id="polygon-20" data-name="polygon">
+                <path id="polyPath-20" data-name="polyPath" d="M365.665,965.623,162.418,834.8-4.962,885.9Z" fill="url(#radial-gradient-20)"/>
+              </g>
+              <g id="polygon-21" data-name="polygon">
+                <path id="polyPath-21" data-name="polyPath" d="M52.824,724.412l17.933,32.707L194.3,656.955Z" fill="url(#radial-gradient-21)"/>
+              </g>
+              <g id="polygon-22" data-name="polygon">
+                <path id="polyPath-22" data-name="polyPath" d="M-4.962,885.9l75.72-128.782L52.824,724.412Z" fill="url(#radial-gradient-22)"/>
+              </g>
+              <g id="polygon-23" data-name="polygon">
+                <path id="polyPath-23" data-name="polyPath" d="M194.3,656.955,70.757,757.119-4.962,885.9Z" fill="url(#radial-gradient-23)"/>
+              </g>
+              <g id="polygon-24" data-name="polygon">
+                <path id="polyPath-24" data-name="polyPath" d="M194.3,656.955,345.74,771.429l47.824-106.3Z" fill="url(#radial-gradient-24)"/>
+              </g>
+              <g id="polygon-25" data-name="polygon">
+                <path id="polyPath-25" data-name="polyPath" d="M365.665,965.623,345.74,771.429,194.3,656.955Z" fill="url(#radial-gradient-25)"/>
+              </g>
+              <g id="polygon-26" data-name="polygon">
+                <path id="polyPath-26" data-name="polyPath" d="M393.564,665.131l-47.824,106.3,19.925,194.193Z" fill="url(#radial-gradient-26)"/>
+              </g>
+              <g id="polygon-27" data-name="polygon">
+                <path id="polyPath-27" data-name="polyPath" d="M393.564,665.131l63.762,216.68,135.5,71.548Z" fill="url(#radial-gradient-27)"/>
+              </g>
+              <g id="polygon-28" data-name="polygon">
+                <path id="polyPath-28" data-name="polyPath" d="M592.827,953.359l-135.5-71.548-91.661,83.811Z" fill="url(#radial-gradient-28)"/>
+              </g>
+              <g id="polygon-29" data-name="polygon">
+                <path id="polyPath-29" data-name="polyPath" d="M365.665,965.623l91.661-83.811-63.762-216.68Z" fill="url(#radial-gradient-29)"/>
+              </g>
+              <g id="polygon-30" data-name="polygon">
+                <path id="polyPath-30" data-name="polyPath" d="M592.827,953.359,547,738.722,393.564,665.131Z" fill="url(#radial-gradient-30)"/>
+              </g>
+              <g id="polygon-31" data-name="polygon">
+                <path id="polyPath-31" data-name="polyPath" d="M393.564,665.131,547,738.722,734.3,634.471Z" fill="url(#radial-gradient-31)"/>
+              </g>
+              <g id="polygon-32" data-name="polygon">
+                <path id="polyPath-32" data-name="polyPath" d="M734.3,634.471,596.811,575.19,393.564,665.131Z" fill="url(#radial-gradient-32)"/>
+              </g>
+              <g id="polygon-33" data-name="polygon">
+                <path id="polyPath-33" data-name="polyPath" d="M393.564,665.131,596.811,575.19l63.765-206.46Z" fill="url(#radial-gradient-33)"/>
+              </g>
+              <g id="polygon-34" data-name="polygon">
+                <path id="polyPath-34" data-name="polyPath" d="M393.564,665.131l95.645-177.843-11.954-53.147Z" fill="url(#radial-gradient-34)"/>
+              </g>
+              <g id="polygon-35" data-name="polygon">
+                <path id="polyPath-35" data-name="polyPath" d="M660.576,368.73,489.209,487.289,393.564,665.131Z" fill="url(#radial-gradient-35)"/>
+              </g>
+              <g id="polygon-36" data-name="polygon">
+                <path id="polyPath-36" data-name="polyPath" d="M477.254,434.141l11.954,53.147L660.576,368.73Z" fill="url(#radial-gradient-36)"/>
+              </g>
+              <g id="polygon-37" data-name="polygon">
+                <path id="polyPath-37" data-name="polyPath" d="M393.564,665.131l13.949-171.709L319.836,378.95Z" fill="url(#radial-gradient-37)"/>
+              </g>
+              <g id="polygon-38" data-name="polygon">
+                <path id="polyPath-38" data-name="polyPath" d="M477.254,434.141l-69.741,59.281L393.564,665.131Z" fill="url(#radial-gradient-38)"/>
+              </g>
+              <g id="polygon-39" data-name="polygon">
+                <path id="polyPath-39" data-name="polyPath" d="M319.836,378.95l87.677,114.472,69.741-59.281Z" fill="url(#radial-gradient-39)"/>
+              </g>
+              <g id="polygon-40" data-name="polygon">
+                <path id="polyPath-40" data-name="polyPath" d="M393.564,665.131,276,544.526,194.3,656.955Z" fill="url(#radial-gradient-40)"/>
+              </g>
+              <g id="polygon-41" data-name="polygon">
+                <path id="polyPath-41" data-name="polyPath" d="M194.3,656.955,276,544.526,319.836,378.95Z" fill="url(#radial-gradient-41)"/>
+              </g>
+              <g id="polygon-42" data-name="polygon">
+                <path id="polyPath-42" data-name="polyPath" d="M319.836,378.95,276,544.526,393.564,665.131Z" fill="url(#radial-gradient-42)"/>
+              </g>
+              <g id="polygon-43" data-name="polygon">
+                <path id="polyPath-43" data-name="polyPath" d="M194.3,656.955,154.447,505.685,20.941,458.672Z" fill="url(#radial-gradient-43)"/>
+              </g>
+              <g id="polygon-44" data-name="polygon">
+                <path id="polyPath-44" data-name="polyPath" d="M319.836,378.95,154.447,505.685,194.3,656.955Z" fill="url(#radial-gradient-44)"/>
+              </g>
+              <g id="polygon-45" data-name="polygon">
+                <path id="polyPath-45" data-name="polyPath" d="M20.941,458.672l133.506,47.014L319.836,378.95Z" fill="url(#radial-gradient-45)"/>
+              </g>
+              <g id="polygon-46" data-name="polygon">
+                <path id="polyPath-46" data-name="polyPath" d="M194.3,656.955,74.744,636.514l-21.92,87.9Z" fill="url(#radial-gradient-46)"/>
+              </g>
+              <g id="polygon-47" data-name="polygon">
+                <path id="polyPath-47" data-name="polyPath" d="M52.824,724.412l21.92-87.9-53.8-177.843Z" fill="url(#radial-gradient-47)"/>
+              </g>
+              <g id="polygon-48" data-name="polygon">
+                <path id="polyPath-48" data-name="polyPath" d="M20.941,458.672l53.8,177.843L194.3,656.955Z" fill="url(#radial-gradient-48)"/>
+              </g>
+              <g id="polygon-49" data-name="polygon">
+                <path id="polyPath-49" data-name="polyPath" d="M20.941,458.672,152.456,323.756l-25.9-110.382Z" fill="url(#radial-gradient-49)"/>
+              </g>
+              <g id="polygon-50" data-name="polygon">
+                <path id="polyPath-50" data-name="polyPath" d="M319.836,378.95l-167.38-55.194L20.941,458.672Z" fill="url(#radial-gradient-50)"/>
+              </g>
+              <g id="polygon-51" data-name="polygon">
+                <path id="polyPath-51" data-name="polyPath" d="M126.552,213.374l25.9,110.382,167.38,55.194Z" fill="url(#radial-gradient-51)"/>
+              </g>
+              <g id="polygon-52" data-name="polygon">
+                <path id="polyPath-52" data-name="polyPath" d="M20.941,458.672,38.875,270.609l-79.707-71.544Z" fill="url(#radial-gradient-52)"/>
+              </g>
+              <g id="polygon-53" data-name="polygon">
+                <path id="polyPath-53" data-name="polyPath" d="M-40.832,199.064l79.707,71.544,87.677-57.234Z" fill="url(#radial-gradient-53)"/>
+              </g>
+              <g id="polygon-54" data-name="polygon">
+                <path id="polyPath-54" data-name="polyPath" d="M126.552,213.374,38.875,270.609,20.941,458.672Z" fill="url(#radial-gradient-54)"/>
+              </g>
+              <g id="polygon-55" data-name="polygon">
+                <path id="polyPath-55" data-name="polyPath" d="M126.552,213.374l9.963-51.108-177.346,36.8Z" fill="url(#radial-gradient-55)"/>
+              </g>
+              <g id="polygon-56" data-name="polygon">
+                <path id="polyPath-56" data-name="polyPath" d="M-40.832,199.064l177.346-36.8L301.9,74.369Z" fill="url(#radial-gradient-56)"/>
+              </g>
+              <g id="polygon-57" data-name="polygon">
+                <path id="polyPath-57" data-name="polyPath" d="M301.9,74.369l-165.389,87.9-9.963,51.108Z" fill="url(#radial-gradient-57)"/>
+              </g>
+              <g id="polygon-58" data-name="polygon">
+                <path id="polyPath-58" data-name="polyPath" d="M-40.832,199.064,76.736,78.459,14.966-11.486Z" fill="url(#radial-gradient-58)"/>
+              </g>
+              <g id="polygon-59" data-name="polygon">
+                <path id="polyPath-59" data-name="polyPath" d="M14.966-11.486l61.77,89.945L301.9,74.369Z" fill="url(#radial-gradient-59)"/>
+              </g>
+              <g id="polygon-60" data-name="polygon">
+                <path id="polyPath-60" data-name="polyPath" d="M301.9,74.369,76.736,78.459-40.832,199.064Z" fill="url(#radial-gradient-60)"/>
+              </g>
+              <g id="polygon-61" data-name="polygon">
+                <path id="polyPath-61" data-name="polyPath" d="M319.836,378.95l-103.615-175.8-89.669,10.223Z" fill="url(#radial-gradient-61)"/>
+              </g>
+              <g id="polygon-62" data-name="polygon">
+                <path id="polyPath-62" data-name="polyPath" d="M126.552,213.374l89.669-10.223L301.9,74.369Z" fill="url(#radial-gradient-62)"/>
+              </g>
+              <g id="polygon-63" data-name="polygon">
+                <path id="polyPath-63" data-name="polyPath" d="M301.9,74.369,216.221,203.151l103.615,175.8Z" fill="url(#radial-gradient-63)"/>
+              </g>
+              <g id="polygon-64" data-name="polygon">
+                <path id="polyPath-64" data-name="polyPath" d="M14.966-11.486,192.309,17.131l35.866-67.455Z" fill="url(#radial-gradient-64)"/>
+              </g>
+              <g id="polygon-65" data-name="polygon">
+                <path id="polyPath-65" data-name="polyPath" d="M228.175-50.323,192.309,17.131,301.9,74.369Z" fill="url(#radial-gradient-65)"/>
+              </g>
+              <g id="polygon-66" data-name="polygon">
+                <path id="polyPath-66" data-name="polyPath" d="M301.9,74.369,192.309,17.131,14.966-11.486Z" fill="url(#radial-gradient-66)"/>
+              </g>
+              <g id="polygon-67" data-name="polygon">
+                <path id="polyPath-67" data-name="polyPath" d="M228.175-50.323l79.706,63.368L377.619-9.442Z" fill="url(#radial-gradient-67)"/>
+              </g>
+              <g id="polygon-68" data-name="polygon">
+                <path id="polyPath-68" data-name="polyPath" d="M377.619-9.442,307.882,13.044,301.9,74.369Z" fill="url(#radial-gradient-68)"/>
+              </g>
+              <g id="polygon-69" data-name="polygon">
+                <path id="polyPath-69" data-name="polyPath" d="M301.9,74.369l5.979-61.324L228.175-50.323Z" fill="url(#radial-gradient-69)"/>
+              </g>
+              <g id="polygon-70" data-name="polygon">
+                <path id="polyPath-70" data-name="polyPath" d="M479.246,280.829l5.979-114.472L301.9,74.369Z" fill="url(#radial-gradient-70)"/>
+              </g>
+              <g id="polygon-71" data-name="polygon">
+                <path id="polyPath-71" data-name="polyPath" d="M301.9,74.369l183.322,91.988,127.527-61.324Z" fill="url(#radial-gradient-71)"/>
+              </g>
+              <g id="polygon-72" data-name="polygon">
+                <path id="polyPath-72" data-name="polyPath" d="M612.752,105.033,485.225,166.357l-5.979,114.472Z" fill="url(#radial-gradient-72)"/>
+              </g>
+              <g id="polygon-73" data-name="polygon">
+                <path id="polyPath-73" data-name="polyPath" d="M819.986,150l-207.234,20.44L479.246,280.829Z" fill="url(#radial-gradient-73)"/>
+              </g>
+              <g id="polygon-74" data-name="polygon">
+                <path id="polyPath-74" data-name="polyPath" d="M612.752,105.033v65.411L819.986,150Z" fill="url(#radial-gradient-74)"/>
+              </g>
+              <g id="polygon-75" data-name="polygon">
+                <path id="polyPath-75" data-name="polyPath" d="M479.246,280.829,612.752,170.444V105.033Z" fill="url(#radial-gradient-75)"/>
+              </g>
+              <g id="polygon-76" data-name="polygon">
+                <path id="polyPath-76" data-name="polyPath" d="M774.154-31.926l65.757,89.941L951.5,41.662Z" fill="url(#radial-gradient-76)"/>
+              </g>
+              <g id="polygon-77" data-name="polygon">
+                <path id="polyPath-77" data-name="polyPath" d="M951.5,41.662,839.911,58.015,819.986,150Z" fill="url(#radial-gradient-77)"/>
+              </g>
+              <g id="polygon-78" data-name="polygon">
+                <path id="polyPath-78" data-name="polyPath" d="M819.986,150l19.925-91.988L774.154-31.926Z" fill="url(#radial-gradient-78)"/>
+              </g>
+              <g id="polygon-79" data-name="polygon">
+                <path id="polyPath-79" data-name="polyPath" d="M951.5,41.662,921.609,158.18l31.879,143.092Z" fill="url(#radial-gradient-79)"/>
+              </g>
+              <g id="polygon-80" data-name="polygon">
+                <path id="polyPath-80" data-name="polyPath" d="M953.489,301.272,921.609,158.18,819.986,150Z" fill="url(#radial-gradient-80)"/>
+              </g>
+              <g id="polygon-81" data-name="polygon">
+                <path id="polyPath-81" data-name="polyPath" d="M819.986,150l101.624,8.177L951.5,41.662Z" fill="url(#radial-gradient-81)"/>
+              </g>
+              <g id="polygon-82" data-name="polygon">
+                <path id="polyPath-82" data-name="polyPath" d="M953.489,301.272l-149.444-6.133L660.576,368.73Z" fill="url(#radial-gradient-82)"/>
+              </g>
+              <g id="polygon-83" data-name="polygon">
+                <path id="polyPath-83" data-name="polyPath" d="M819.986,150,804.044,295.139l149.444,6.133Z" fill="url(#radial-gradient-83)"/>
+              </g>
+              <g id="polygon-84" data-name="polygon">
+                <path id="polyPath-84" data-name="polyPath" d="M660.576,368.73l143.469-73.591L819.986,150Z" fill="url(#radial-gradient-84)"/>
+              </g>
+              <g id="polygon-85" data-name="polygon">
+                <path id="polyPath-85" data-name="polyPath" d="M903.676,889.988,816,859.327,802.052,969.713Z" fill="url(#radial-gradient-85)"/>
+              </g>
+              <g id="polygon-86" data-name="polygon">
+                <path id="polyPath-86" data-name="polyPath" d="M802.052,969.713,816,859.327,734.3,634.471Z" fill="url(#radial-gradient-86)"/>
+              </g>
+              <g id="polygon-87" data-name="polygon">
+                <path id="polyPath-87" data-name="polyPath" d="M734.3,634.471,816,859.327l87.677,30.661Z" fill="url(#radial-gradient-87)"/>
+              </g>
+              <g id="polygon-88" data-name="polygon">
+                <path id="polyPath-88" data-name="polyPath" d="M802.052,969.713,654.6,861.371l-61.77,91.988Z" fill="url(#radial-gradient-88)"/>
+              </g>
+              <g id="polygon-89" data-name="polygon">
+                <path id="polyPath-89" data-name="polyPath" d="M592.827,953.359l61.77-91.988,79.706-226.9Z" fill="url(#radial-gradient-89)"/>
+              </g>
+              <g id="polygon-90" data-name="polygon">
+                <path id="polyPath-90" data-name="polyPath" d="M734.3,634.471,654.6,861.371,802.052,969.713Z" fill="url(#radial-gradient-90)"/>
+              </g>
+              <g id="polygon-91" data-name="polygon">
+                <path id="polyPath-91" data-name="polyPath" d="M592.827,953.359l9.963-159.446L547,738.722Z" fill="url(#radial-gradient-91)"/>
+              </g>
+              <g id="polygon-92" data-name="polygon">
+                <path id="polyPath-92" data-name="polyPath" d="M547,738.722l55.794,55.191L734.3,634.471Z" fill="url(#radial-gradient-92)"/>
+              </g>
+              <g id="polygon-93" data-name="polygon">
+                <path id="polyPath-93" data-name="polyPath" d="M734.3,634.471,602.789,793.913l-9.963,159.446Z" fill="url(#radial-gradient-93)"/>
+              </g>
+              <g id="polygon-94" data-name="polygon">
+                <path id="polyPath-94" data-name="polyPath" d="M734.3,634.471l-83.69-139.006-53.8,79.725Z" fill="url(#radial-gradient-94)"/>
+              </g>
+              <g id="polygon-95" data-name="polygon">
+                <path id="polyPath-95" data-name="polyPath" d="M596.811,575.19l53.8-79.725,9.963-126.735Z" fill="url(#radial-gradient-95)"/>
+              </g>
+              <g id="polygon-96" data-name="polygon">
+                <path id="polyPath-96" data-name="polyPath" d="M660.576,368.73l-9.963,126.735L734.3,634.471Z" fill="url(#radial-gradient-96)"/>
+              </g>
+              <g id="polygon-97" data-name="polygon">
+                <path id="polyPath-97" data-name="polyPath" d="M810.023,393.257l-79.707,57.238L734.3,634.471Z" fill="url(#radial-gradient-97)"/>
+              </g>
+              <g id="polygon-98" data-name="polygon">
+                <path id="polyPath-98" data-name="polyPath" d="M734.3,634.471l-3.987-183.976L660.576,368.73Z" fill="url(#radial-gradient-98)"/>
+              </g>
+              <g id="polygon-99" data-name="polygon">
+                <path id="polyPath-99" data-name="polyPath" d="M660.576,368.73l69.741,81.765,79.707-57.238Z" fill="url(#radial-gradient-99)"/>
+              </g>
+              <g id="polygon-100" data-name="polygon">
+                <path id="polyPath-100" data-name="polyPath" d="M477.254,434.141l-107.6-116.515L319.836,378.95Z" fill="url(#radial-gradient-100)"/>
+              </g>
+              <g id="polygon-101" data-name="polygon">
+                <path id="polyPath-101" data-name="polyPath" d="M319.836,378.95l49.816-61.324L301.9,74.369Z" fill="url(#radial-gradient-101)"/>
+              </g>
+              <g id="polygon-102" data-name="polygon">
+                <path id="polyPath-102" data-name="polyPath" d="M301.9,74.369l67.749,243.257,107.6,116.515Z" fill="url(#radial-gradient-102)"/>
+              </g>
+              <g id="polygon-103" data-name="polygon">
+                <path id="polyPath-103" data-name="polyPath" d="M52.824,724.412-44.816,589.5-4.962,885.9Z" fill="url(#radial-gradient-103)"/>
+              </g>
+              <g id="polygon-104" data-name="polygon">
+                <path id="polyPath-104" data-name="polyPath" d="M20.941,458.672-44.816,589.5l97.64,134.916Z" fill="url(#radial-gradient-104)"/>
+              </g>
+              <g id="polygon-105" data-name="polygon">
+                <path id="polyPath-105" data-name="polyPath" d="M20.941,458.672-30.866,413.7-44.816,589.5Z" fill="url(#radial-gradient-105)"/>
+              </g>
+              <g id="polygon-106" data-name="polygon">
+                <path id="polyPath-106" data-name="polyPath" d="M-40.832,199.064-30.866,413.7l51.808,44.971Z" fill="url(#radial-gradient-106)"/>
+              </g>
+              <g id="polygon-107" data-name="polygon">
+                <path id="polyPath-107" data-name="polyPath" d="M14.966-11.486-58.762-48.28l17.93,247.344Z" fill="url(#radial-gradient-107)"/>
+              </g>
+              <g id="polygon-108" data-name="polygon">
+                <path id="polyPath-108" data-name="polyPath" d="M873.785,609.94,829.948,571.1,734.3,634.471Z" fill="url(#radial-gradient-108)"/>
+              </g>
+              <g id="polygon-109" data-name="polygon">
+                <path id="polyPath-109" data-name="polyPath" d="M953.489,301.272,829.948,571.1l43.837,38.841Z" fill="url(#radial-gradient-109)"/>
+              </g>
+              <g id="polygon-110" data-name="polygon">
+                <path id="polyPath-110" data-name="polyPath" d="M734.3,634.471,829.948,571.1l123.54-269.827Z" fill="url(#radial-gradient-110)"/>
+              </g>
+              <g id="polygon-111" data-name="polygon">
+                <path id="polyPath-111" data-name="polyPath" d="M973.417,699.882,931.572,577.233,873.785,609.94Z" fill="url(#radial-gradient-111)"/>
+              </g>
+              <g id="polygon-112" data-name="polygon">
+                <path id="polyPath-112" data-name="polyPath" d="M873.785,609.94l57.786-32.707,21.917-275.961Z" fill="url(#radial-gradient-112)"/>
+              </g>
+              <g id="polygon-113" data-name="polygon">
+                <path id="polyPath-113" data-name="polyPath" d="M819.986,150,686.48,278.785l-25.9,89.945Z" fill="url(#radial-gradient-113)"/>
+              </g>
+              <g id="polygon-114" data-name="polygon">
+                <path id="polyPath-114" data-name="polyPath" d="M660.576,368.73l25.9-89.945-207.234,2.044Z" fill="url(#radial-gradient-114)"/>
+              </g>
+              <g id="polygon-115" data-name="polygon">
+                <path id="polyPath-115" data-name="polyPath" d="M479.246,280.829l207.234-2.044L819.986,150Z" fill="url(#radial-gradient-115)"/>
+              </g>
+              <g id="polygon-116" data-name="polygon">
+                <path id="polyPath-116" data-name="polyPath" d="M634.669-3.309l27.9,63.368L819.986,150Z" fill="url(#radial-gradient-116)"/>
+              </g>
+              <g id="polygon-117" data-name="polygon">
+                <path id="polyPath-117" data-name="polyPath" d="M819.986,150,662.568,60.059l-49.816,44.974Z" fill="url(#radial-gradient-117)"/>
+              </g>
+              <g id="polygon-118" data-name="polygon">
+                <path id="polyPath-118" data-name="polyPath" d="M612.752,105.033l49.816-44.974-27.9-63.368Z" fill="url(#radial-gradient-118)"/>
+              </g>
+              <g id="polygon-119" data-name="polygon">
+                <path id="polyPath-119" data-name="polyPath" d="M301.9,74.369,545,72.325,634.669-3.309Z" fill="url(#radial-gradient-119)"/>
+              </g>
+              <g id="polygon-120" data-name="polygon">
+                <path id="polyPath-120" data-name="polyPath" d="M634.669-3.309,545,72.325l67.752,32.707Z" fill="url(#radial-gradient-120)"/>
+              </g>
+              <g id="polygon-121" data-name="polygon">
+                <path id="polyPath-121" data-name="polyPath" d="M612.752,105.033,545,72.325,301.9,74.369Z" fill="url(#radial-gradient-121)"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -8,15 +8,15 @@ export default function bindFlyoutMenuListeners() {
     flyoutToggles.forEach(flyoutToggle =>  {
         flyoutToggle.addEventListener('click', FlyoutMenu.handleClick);
     })
-    menuItemsHaveChildren.forEach(menuItem => {
-        menuItem.addEventListener('focusout', FlyoutMenu.handleFocusOut);
-        if (window.innerWidth > 980) {
+    if (window.innerWidth > 980) {
+        menuItemsHaveChildren.forEach(menuItem => {
+            menuItem.addEventListener('focusout', FlyoutMenu.handleFocusOut);
             menuItem.addEventListener('mouseenter', FlyoutMenu.isEdge);
-        }
-    })
+        })
+    }
 }
 
-const FlyoutMenu = {
+export const FlyoutMenu = {
     handleFocusOut(e) {
         // Don't close if focus is moving within the same menu
         if (e.relatedTarget && e.relatedTarget.closest('.flyout-menu')) {
@@ -34,7 +34,10 @@ const FlyoutMenu = {
         })
     },
     handleClick(e) {
+        console.log(e)
         const menuItem = e.target.classList.contains('menu-item-has-children') ? e.target : e.target.closest('.menu-item-has-children');
+
+        console.log(menuItem)
 
         if (menuItem.classList.contains('submenu-open')) {
             FlyoutMenu.closeSubMenu(menuItem);
@@ -68,8 +71,8 @@ const FlyoutMenu = {
         if (window.innerWidth < 980) {
             expandSection(menuItem.querySelector('.flyout-menu'))
         }
-        menuItem.classList.add('submenu-open');
         this.getAriaElements(menuItem.children);
+        menuItem.classList.add('submenu-open');
     },
     getAriaElements(liElements) {
         const ariaElements = [...liElements].filter(child => child.hasAttribute('aria-expanded'));
