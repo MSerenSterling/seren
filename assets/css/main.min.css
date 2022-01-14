@@ -198,7 +198,7 @@ legend, button::-moz-focus-inner, input::-moz-focus-inner {
 @supports (display: grid) {
   .wrapper, .alignfull {
     display: grid;
-    grid-template-columns: [full-start] clamp(30px, 10.2040816327vw, 100px) [gutter-start] calc(50vw - ((var(--wrapper) / 2)) - clamp(30px, 10.2040816327vw, 100px)) [wrapper-start] 1fr [wrapper-end] calc(50vw - ((var(--wrapper) / 2)) - clamp(30px, 10.2040816327vw, 100px)) [gutter-end] clamp(30px, 10.2040816327vw, 100px) [full-end];
+    grid-template-columns: [full-start] clamp(30px, 1rem + 10.2040816327vw, 100px) [gutter-start] calc(50vw - ((var(--wrapper) / 2)) - clamp(30px, 1rem + 10.2040816327vw, 100px)) [wrapper-start] 1fr [wrapper-end] calc(50vw - ((var(--wrapper) / 2)) - clamp(30px, 1rem + 10.2040816327vw, 100px)) [gutter-end] clamp(30px, 1rem + 10.2040816327vw, 100px) [full-end];
     max-width: unset;
     width: unset;
     margin: 0;
@@ -301,7 +301,7 @@ body.modal-open {
 }
 
 .custom-logo-link {
-  width: clamp(50px, 7.6530612245vw, 75px);
+  width: clamp(50px, 1rem + 7.6530612245vw, 75px);
 }
 .custom-logo-link img {
   max-width: 100%;

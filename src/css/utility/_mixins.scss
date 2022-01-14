@@ -20,7 +20,7 @@ $responsive-scale: 980;
     @if $unit == 'rem' {
         $vw: math.div($maxSize, math.div($responsive-scale, 16)) * 100;
     }
-    $clamp: clamp(#{$minSize + $unit}, #{$vw + 'vw'}, #{$maxSize + $unit});
+    $clamp: clamp(#{$minSize + $unit}, 1rem + #{$vw + 'vw'}, #{$maxSize + $unit});
     @return $clamp;
 }
 
